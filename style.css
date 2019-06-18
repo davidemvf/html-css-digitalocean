@@ -1,0 +1,28 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.clearfix{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.fixed{
+  width: 100%;
+  background-color: white;
+  position: fixed;
+}
+
+.fixed-centering{
+  width: 95%;
+  margin: 0 auto;
+}
+
+/* general centering */
+.main-centering{
+  width: 80%;
+  margin: 0 auto;
+}
