@@ -217,14 +217,15 @@ div.centering-white button{
 }
 
 div.sign-up a{
-  width: 60%;
-  font-size: 16px;
+  font-size: 15px;
   font-family: arial;
   color: #757575;
   position: absolute;
   top:50%;
-  left:50%;
-  transform: translate(-50%, -50%);
+  left: 50%;
+  transform: translate(-50%,-50%);
+
+
 }
 
 div.centering-white img{
@@ -293,13 +294,79 @@ section.second-section a{
   letter-spacing: -1px;
   font-family: Arial;
   color: #031B4E;
-  margin-top: 100px;
+
   margin-bottom: 30px;
+  padding-top: 100px;
 }
 
 section.third-section p{
   text-align: center;
-  font-size: 20px;
+  font-size: 25px;
   margin-bottom: 64px;
   color: #4E5F83;
+}
+
+.container{
+  width: 85%;
+  margin:auto;
+
+  height: 400px;
+}
+
+.vertical-nav{
+  height: 400px;
+  width: calc(100% / 3);
+
+}
+
+.services{
+  height: 50%;
+  width: calc(100% / 3);
+
+
+}
+
+.vertical-nav ul{
+  padding-left: 20px;
+}
+
+.vertical-nav ul li{
+  font-size: 18px;
+  margin-bottom: 30px;
+  color: rgba(3,27,78,.5);
+}
+
+div.services p{
+  text-align: left;
+  margin-top: 15px;
+  line-height: 30px;
+  font-size: 18px;
+  padding-right: 15px;
+
+}
+
+.fourth-section{
+  background-color: #F3F5F9;
+}
+
+section.fourth-section p{
+  text-align: center;
+  font-size: 25px;
+  margin-bottom: 64px;
+  color: #4E5F83;
+}
+
+.screenshot{
+  width: 60%;
+  height: 500px;
+  margin: auto;
+  background-image: url(immagini/screenshot.jpg);
+  background-size: cover;
+  margin-bottom: 35px;
+}
+
+#p-small{
+  text-align: center;
+  font-size: 18px;
+  padding-bottom: 60px;
 }
